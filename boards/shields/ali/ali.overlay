@@ -2,8 +2,6 @@
 
 / {
     kscan: kscan {
-        model = "ali";
-
         chosen {
             zmk,kscan = &kscan;
             zmk,matrix_transform = &transform;
