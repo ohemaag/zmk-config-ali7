@@ -1,7 +1,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    kscan0: kscan0 {
+    kscan: kscan {
+        model = "ali";
+
+        chosen {
+            zmk,kscan = &kscan;
+            zmk,matrix_transform = &transform;
+        };
+
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
@@ -25,7 +32,7 @@
                     <&gpio0 22 GPIO_ACTIVE_HIGH>;     
     };
 
-    default_transform: matrix_transform {
+    transform: transform {
         compatible = "zmk,matrix-transformation";
         columns = <12>;
         rows = <4>;
