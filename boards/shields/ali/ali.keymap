@@ -51,5 +51,15 @@
             key-positions = <26 27 28>;
             bindings = <&kp BSPC>;
         };
+        combo_shift {
+            timeout-ms = <500>;
+            key-positions = <19 20>;
+            bindings = <&kp LSHIFT>;
+        };
+        combo_shift {
+            timeout-ms = <500>;
+            key-positions = <15 16>;
+            bindings = <&kp RSHIFT>;
+        };
     };
 };
