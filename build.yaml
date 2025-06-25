@@ -15,7 +15,7 @@
 #     shield: corne_left
 #     snippet: studio-rpc-usb-uart
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
-#     artifact-name: corne_left_with_studio
+#     artifact-name: corne_lewaseft_with_studio
 #
 ---
 include:
