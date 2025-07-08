@@ -32,6 +32,5 @@
                 &none   &none   &none   &kp LALT   &kp LEFT_GUI   &kp BSPC   &kp SPACE   &none   &kp N0   &none   &none   &none
             >;
         };
-        
     };
 };
